@@ -1,0 +1,620 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content:space-between;
+    background-color:#00286e;
+    align-items: center;
+}
+
+#main-header{
+    display: flex;
+    color: #ffffff;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+
+#logo-header:hover {
+	color: hsla(177, 92%, 67%, 0.521);
+}
+
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+    color: #fff;
+}
+
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: rgb(255, 255, 255);
+}
+
+.menu {
+    background: #00286e;
+    text-decoration: none;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+menu ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+menu ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.pag{
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 0;
+    order: 1;
+    outline: none;
+    padding: 12;
+}
+    .pag:hover{
+        background:hsla(177, 92%, 67%, 0.521)
+    }
+
+.Z6I9qa {
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    width: auto;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    font-size: 20px;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 12px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1.1764705882rem;
+    padding:25px;
+    color: #3a3839;
+}
+
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15em;
+    padding-right: 15em;
+    line-height: 1.5em;
+}
+.bc-tiles-icon-filter-list{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    line-height: 1.5;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    min-height: 0px;
+    min-width: 0px;
+    columns: 2;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0;
+    width: auto;
+    list-style: none;
+    margin: 0 auto -8.5882352941rem;
+}
+
+label.bc-tiles-icon-filter-label:hover{
+    background: #2895d5;
+    color: #fff;
+}
+
+.li{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    padding: 0;
+    font-size: inherit;
+    line-height: 1.3;
+    list-style: none;
+    margin: 0 .4705882353rem;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+[type=checkbox]{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    list-style: none;
+    text-rendering: geometricPrecision;
+    font-size: 100%;
+    line-height: 1.15;
+    overflow: visible;
+    font-family: inherit;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0 0 .9411764706rem;
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: -9999px;
+}
+
+.bc-tiles-icon-filter-label {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    list-style: none;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    line-height: 1.3;
+    text-transform: none;
+    margin: 0;
+    padding: .8235294118rem .2352941176rem 0;
+    border: .2352941176rem solid #e5e3df;
+    border-radius: 50%;
+    background: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #333740;
+    width: 150px;
+    height: 150px;
+    font-size: .85rem;
+    cursor: pointer;
+}
+
+.icon{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    list-style: none;
+    line-height: 1.3;
+    text-transform: none;
+    font-weight: 700;
+    text-align: center;
+    color: #333740;
+    font-size: .85rem;
+    cursor: pointer;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    max-width: 100%;
+    fill: currentColor;
+    overflow: visible;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+
+use{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    list-style: none;
+    line-height: 1.3;
+    text-transform: none;
+    font-weight: 700;
+    text-align: center;
+    color: #333740;
+    font-size: .85rem;
+    cursor: pointer;
+    fill: currentColor;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+}
+
+.bc-tiles-icon-filter-list>li {
+    margin: 0 .4705882353rem;
+}
+
+.picture {
+    width: 20px
+}
+
+.bc-tiles-items {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 80rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-bottom: 3.5294117647rem;
+}
+
+.bc-tiles-wrapper {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    min-height: 0px;
+    min-width: 0px;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 75rem;
+    margin:0rem ;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.bc-tile{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 1.83rem;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    min-height: 0px;
+    min-width: 0px;
+    padding-left: 1.83rem;
+    padding-right: 1.83rem;
+    width: 20%;
+}
+
+.bc-tile-inner-wrap{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    justify-content: stretch;
+    width: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.14);
+    transition: box-shadow .3s ease, -webkit-box-shadow .3s ease;
+}
+
+.tile{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    position: relative;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin: 0;
+    padding-bottom: 0;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.bc-tile-icon{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    background-color: #00286e;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+.icono{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    text-align: center;
+    color: #fff;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: visible;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.bc-tile-label-wrap{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border: none;
+    position: relative;
+    text-align: center;
+}
+
+.button-button-label-theme-action-pink{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    vertical-align: middle;
+    margin: 0 0 1.1764705882rem 0;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    font-family: inherit;
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: inline-flex;
+    flex-flow: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    background: #2895d5;
+    text-align: center;
+    text-decoration: none !important;
+    overflow: hidden;
+    padding: 3px 12px;
+    min-width: auto;
+    height: auto;
+    border: none;
+    border-radius: 1.7647058824rem;
+    font-size: .85rem;
+    font-weight: 700;
+    line-height: inherit;
+    text-transform: none;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #ec008c;
+}
+
+.tile-content{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    border-radius: 4px;
+    background: #fff;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 1.1764705882rem .5882352941rem;
+}
+
+.tile-title-default-title{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    line-height: 1.2;
+    margin-top: 0;
+    font-weight: 800;
+    color: #333740;
+    font-size: 1.6470588235rem;
+    display: block;
+    margin-bottom: 1.1764705882rem;
+    padding-right: 0;
+}
+
+.tiles-text{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.1764705882rem;
+    font-size: 1rem;
+    color: #333740;
+}
+
+.nd1{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    color: #333740;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    margin-bottom: .8rem;
+    line-height: 1.3;
+    list-style: none;
+}
+
+.nd{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    -webkit-box-direction: normal;
+    font-size: 1rem;
+    color: #333740;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    margin-left: 0;
+    list-style: none;
+}
+
+
+#main-footer {
+    background: #00286e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    margin-top: 10px;
+    width: 100%;
+}
+    #main-footer p {
+        margin: 0;
+    }
+    
+    #main-footer a {
+        color: white;
+    }
+
+    .foot{
+        color: white
+    }

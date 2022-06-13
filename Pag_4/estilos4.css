@@ -1,0 +1,295 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content:space-between;
+    background-color:#00286e;
+    align-items: center;
+}
+
+#main-header{
+    display: flex;
+    color: #ffffff;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+
+#logo-header:hover {
+	color: hsla(177, 92%, 67%, 0.521);
+}
+
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+    color: #fff;
+}
+
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: rgb(255, 255, 255);
+}
+
+.menu {
+    background: #00286e;
+    text-decoration: none;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+menu ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+menu ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+li:hover{
+    background:hsla(177, 92%, 67%, 0.521)
+}
+
+.pag{
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 0;
+    order: 1;
+    outline: none;
+    padding: 12;
+}
+
+.Z6I9qa {
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    width: auto;
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    font-size: 20px;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 12px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15em;
+    padding-right: 15em;
+    line-height: 1.5em;
+}
+
+.video-wrapper {
+    margin: 0;
+}
+
+.page-upper{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 70.5882352941rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    position: relative;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    padding-bottom: 7.0588235294rem;}
+
+p{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    color: #333740;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    font-size: inherit;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+.tiles-stds{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    background: #f7f6f4;
+    padding-top: 3.5294117647rem;
+    padding-bottom: 3.5294117647rem;
+}
+
+.tiles-sm-flex-gird{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 70.5882352941rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+}
+
+div.tile.tile-expandable.expand-target.remove-expand-for-mobile{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    min-height: 0px;
+    min-width: 0px;
+    padding-left: 1.1764705882rem;
+    padding-right: 1.1764705882rem;
+    width: 20%;
+    display: flex;
+    margin-bottom: 2.3529411765rem;
+}
+
+.div.tile-content.has-icons.icons-on-mobile{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333740;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    border-radius: 4px;
+    background: #fff;
+    padding: 0;
+    display: flex;
+    max-width: 100%;
+}
+
+.tile-text{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #333740;
+    margin-bottom: 0;
+}
+
+.span{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Avenir Next W01",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-direction: normal;
+    font-size: 1.1764705882rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #000000;
+    cursor: text;
+    box-sizing: inherit;
+    text-rendering: geometricPrecision;
+    display: block;
+}
+
+
+#main-footer {
+    background: #00286e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    margin-top: 10px;
+    width: 100%;
+}
+    #main-footer p {
+        margin: 0;
+    }
+    
+    #main-footer a {
+        color: white;
+    }
+
+    .foot{
+        color: white
+    }
